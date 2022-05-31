@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="154" height="154" viewBox="0 0 154 154">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="77" cy="77" r="77" transform="translate(53 3611)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_570" data-name="Rectangle 570" width="105.405" height="154" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_140" data-name="Group 140" transform="translate(-53 -3611)">
+    <g id="Mask_Group_2" data-name="Mask Group 2" clip-path="url(#clip-path)">
+      <g id="Nurse" transform="translate(130 3688)">
+        <g id="Group_134" data-name="Group 134" transform="translate(-52.702 -77)" clip-path="url(#clip-path-2)">
+          <path id="Path_741" data-name="Path 741" d="M156.023,245.554c21.185-15.893,3.676-36.725,3.676-36.725a25.728,25.728,0,0,0-1.912-10.026l-4.01,8.021-3.453-2.3c-.093-.074-10.268-6.721-20-6.721s-19.9,6.666-20,6.721l-3.453,2.3-4.01-8.039a25.728,25.728,0,0,0-1.912,10.026s-17.527,20.851,3.676,36.725a18.166,18.166,0,0,0,11.159,4.066l-.149-.39a26.713,26.713,0,0,0,6.666-12.681c-8-3.4-13.7-11.716-13.981-21.519a64.532,64.532,0,0,0,21.983-13.572,64.766,64.766,0,0,0,21.983,13.572c-.278,9.915-6.09,18.307-14.241,21.631a26.783,26.783,0,0,0,6.647,12.57l-.149.371c3.416.093,7.278-.91,11.456-4.048" transform="translate(-76.668 -161.075)" fill="#0a5b55"/>
+          <path id="Path_742" data-name="Path 742" d="M97.711,482.723a50.325,50.325,0,0,0-12.477-5.533,85.6,85.6,0,0,0-13.35-1.69l-.408,1.133c-.78,2.135-7.891,20.776-17.991,20.776s-17.212-18.66-17.991-20.776l-.408-1.114c-6.74.371-20.127,1.8-25.53,7.2-2.432,2.432-5.162,6.164-7.353,14.686-1.912,7.464-4.438,22.577,1.467,43.15l73.005-.2,22.41.873c9.543-28.24,7.65-52.452-1.355-58.486M72,490.075H86.7v3.676H72Z" transform="translate(0.007 -387.214)" fill="#0a5b55"/>
+          <path id="Path_743" data-name="Path 743" d="M127.825,33.068c11.029,0,22.039,7.353,22.039,7.353l14.705-29.392S146.188,0,127.825,0,91.1,11.029,91.1,11.029L105.786,40.42s11.029-7.353,22.039-7.353m-11.01-18.381h7.353V7.353h7.353v7.334h7.353v7.353H131.5v7.353h-7.353V22.039h-7.334Z" transform="translate(-74.185)" fill="#0a5b55"/>
+        </g>
+      </g>
+    </g>
+    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(53 3611)" fill="none" stroke="#707070" stroke-width="1">
+      <circle cx="77" cy="77" r="77" stroke="none"/>
+      <circle cx="77" cy="77" r="76.5" fill="none"/>
+    </g>
+  </g>
+</svg>

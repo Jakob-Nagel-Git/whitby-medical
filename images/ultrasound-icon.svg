@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="94.138" height="70.5" viewBox="0 0 94.138 70.5">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_584" data-name="Rectangle 584" width="94.138" height="70.5" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="ultrasound-icon" transform="translate(47.069 35.25)">
+    <g id="Group_148" data-name="Group 148" transform="translate(-47.069 -35.25)" clip-path="url(#clip-path)">
+      <path id="Path_782" data-name="Path 782" d="M253.351,42.117,235.3,60.151a37.622,37.622,0,0,0,12.844,6.876c10.563,3.157,20.762.81,30.349-6.976L260.541,42.1a8.728,8.728,0,0,1-7.191.017" transform="translate(-196.405 -35.141)" fill="#fff"/>
+      <path id="Path_783" data-name="Path 783" d="M162.5,43.143h67.277V0H162.5Zm56.8-17.621a37.856,37.856,0,0,1-17.6,8.711,30.861,30.861,0,0,1-5.389.479,32.58,32.58,0,0,1-9.406-1.422,37.44,37.44,0,0,1-13.951-7.719.744.744,0,0,1-.017-1.074l18.976-18.96a.744.744,0,0,1,.909-.116,7.158,7.158,0,0,0,6.761-.033.744.744,0,0,1,.86.132l18.91,18.91a.744.744,0,0,1-.05,1.091" transform="translate(-135.639)" fill="#fff"/>
+      <rect id="Rectangle_581" data-name="Rectangle 581" width="1.851" height="5.566" transform="translate(60.499 42.515)" fill="#fff"/>
+      <rect id="Rectangle_582" data-name="Rectangle 582" width="1.984" height="3.389" transform="translate(39.639 59.756)" fill="#fff"/>
+      <rect id="Rectangle_583" data-name="Rectangle 583" width="1.984" height="3.389" transform="translate(81.211 59.756)" fill="#fff"/>
+      <path id="Path_784" data-name="Path 784" d="M68.536,165.27H53.94s.43,15.836-9.158,15.836S36.3,165.27,36.3,165.27L36.27,133.4" transform="translate(-30.27 -111.349)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.488"/>
+      <path id="Path_785" data-name="Path 785" d="M14.749,26v6.4l-2.975,2.975v8.364H7.591V35.372L4.5,32.281V26Z" transform="translate(-3.756 -21.702)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.488"/>
+      <path id="Path_786" data-name="Path 786" d="M277.4,302.687H231.1V291h46.3Z" transform="translate(-192.899 -242.898)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

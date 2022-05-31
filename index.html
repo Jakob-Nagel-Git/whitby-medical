@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitby Medical - Walk-In Clinic</title>
+    <meta name="description" content="Walk-in clinic in Whitby. Call now to make an appointment or for more info."/>
+
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="css-reset.css">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Material Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/18bf51e616.js" crossorigin="anonymous"></script>
+
+    
+
+    <!-- Favicon -->
+    <link rel="icon"  href="/images/favicon.ico"/>
+
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <header>
+        <div class="header-container">
+            <div class="logo" style="margin-left: 20px;">
+                <a href="#hero-box">
+                    <img src="images/Logo.svg" alt="Whitby Medical Logo">
+                </a>
+
+                <a href="#hero-box" class="logo-text bold">
+                    Whitby Medical
+                </a>
+            </div>
+
+            <nav>
+                <a href="#about-us" class="nav-button bold">About Us</a>
+                <a href="#map-to-location" class="nav-button bold">Location & Hours</a>
+                <a href="#main" class="nav-button bold">Contact Us</a>
+                <a href="#services" class="nav-button bold">Services</a>
+            </nav>
+
+            <div class="mob-wrapper" style="margin-right: 20px;">
+
+                <img src="images/icon-burger-menu.svg" alt="Mobile Menu Icon" style="width: 40px;" class="burgermenu">
+
+                <div class="mob-nav">
+                    <a href="#about-us" class="navbutton">About Us</a>
+                    <a href="#map-to-location" class="navbutton">Location & Hours</a>
+                    <a href="#main" class="navbutton">Contact Us</a>
+                    <a href="#services" class="navbutton">Services</a>
+                </div>
+
+
+            </div>
+
+            <div class="seperation-div"></div>
+
+
+        </div>
+    </header>
+
+    <div class="herobox" id="hero-box">
+        <!-- Hero Text -->
+        <!-- <h1>Your Health Comes First</h1> -->
+        <h1 style="padding-top: 400px;">Your Health Comes First</h1>
+        <h2 class="first-line my-h2" >Now offering in-person and virtual medical consultations</h2>
+        <!-- <h2 class="first-line my-h2" style="margin-bottom: 10px;">Holiday Hours: <br> Thurs December 24:  9-12 <br>Friday December 25: Closed<br> Saturday December 26:  9-12 <br> Sunday December 27: 9-1 <br> Monday to Wednesday: Regular hours <br> Thursday December 31: 9-6 <br> Friday January 1: Closed</h2> -->
+        
+
+        <!-- Button -->
+        <!-- <a href="tel:+19054449493">
+            <div class="call-button">
+                <h3 class="my-h3">See a Doctor now</h3>
+                <img class="right-icon" src="images/Right-Arrow.svg" alt="Right Arrow">
+            </div>
+        </a> -->
+    </div>
+
+    <!-- Awards Box -->
+    <div class="awards">
+        <!-- Container to keep the awards inline -->
+        <div class="award-container">
+
+            <!-- #1 walk in clinic -->
+            <div class="award">
+                <div class="award-circle">
+                    <img src="images/One-Icon.svg" alt="Number One Icon">
+                </div>
+                <h3 class="my-h3">Voted #1 Walk-In Clinic Durham</h3>
+                <p>by Durham Parent Reader's Choice Awards</p>
+            </div>
+
+            <!-- Open 7 Days a week -->
+            <div class="award">
+                <div class="award-circle">
+                    <img src="images/Seven-Days.svg" alt="Seven Days Open Icon">
+                </div>
+                <h3 class="my-h3">Walk-Ins are always available</h3>
+                <!-- <p>We are open 6 Days a Week & most Holidays </p> -->
+                <a href="/Temporary Office Hours.pdf" class="hours-link">New hours update - Click here</a>
+            </div>
+
+            <!-- Special Intrest in children -->
+            <div class="award">
+                <div class="award-circle">
+                    <span class="material-icons">child_friendly</span>
+                </div>
+                <h3 class="my-h3">Special interest in children</h3>
+                <p>Our clinic offers special care for your children</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Main Section -->
+    <main id="main">
+        <!-- Container for main to keep everything in line -->
+        <div class="main-container">
+
+            <!-- Title -->
+            <h1>Want to make an appointment?</h1>
+
+            <!-- Flexbox Container for appointment methods -->
+            <div class="appointment-container">
+                <!-- Appointment #1
+                <div class="appointment-box">
+                    <h1>1.</h1>
+                    <h2 class="my-h2">Call us at:</h2>
+                    <a href="tel:+19054449493" class="appointment-button">(905)-444-9493</a>
+                </div> -->
+
+                <!-- Appointment #2 -->
+                <div class="appointment-box">
+                    <h1></h1>
+                    <h2 class="adress-h2">Come to our<br>office at:</h2>
+                    <a href="#" onclick="mapsSelector()"><p>3910 Brock St N #4<br>Whitby, ON L1R 3E1</p></a>
+                </div>
+
+                <!-- Appointment # -->
+                <!-- <div class="appointment-box">
+                    <div class="book-online-widget" data-host="https://Widgets.SkipTheWaitingRoom.com" data-booking-host="https://booking.SkipTheWaitingRoom.com" data-id="1337" data-hide-clinic-start-end="true" data-autorefresh="true" data-refresh-interval-seconds="60"></div>
+                </div> -->
+            </div>
+
+            <!-- Location and Hours -->
+            <h1>Location and Hours</h1>
+
+            <!-- Map and hours container -->
+
+            <!-- Google Maps -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4833.780479479422!2d-78.96034782430559!3d43.91418377680727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d51eedd5698409%3A0xfa08a8308d03831d!2sWhitby%20Medical%20Walk%20In%20Clinic!5e0!3m2!1sen!2sca!4v1591821631155!5m2!1sen!2sca" width="1366" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="map" id="map-to-location"></iframe>
+
+            <div class="map-container">
+
+                
+
+
+                <!-- Hours table -->
+                <div class="hours">
+
+                    <!-- title -->
+                    <h2 class="my-h2 hour-title">IN OFFICE HOURS</h2>
+
+                    <!-- container for hours -->
+                    <div class="hours-container">
+
+                        <!-- days of the week -->
+                        <div class="days">
+                            <p>Monday</p>
+                            <p>Tuesday</p>
+                            <p>Wednesday</p>
+                            <p>Thursday</p>
+                            <p>Friday</p>
+                            <p>Saturday</p>
+                            <p>Sunday</p>
+                        </div>
+
+                        <!-- Hours for each day -->
+                        <div class="hours-day">
+                            <!-- Monday -->
+                            <p>9:00<span style="font-size: 0.75rem;">am</span>&nbsp;&nbsp; to&nbsp;&nbsp; 2:00<span style="font-size: 0.75rem;">pm</span></p>
+
+                            <!-- Tuesday -->
+                            <p>9:00<span style="font-size: 0.75rem;">am</span>&nbsp;&nbsp; to&nbsp;&nbsp; 2:00<span style="font-size: 0.75rem;">pm</span></p>
+
+                            <!-- Wednesday -->
+                            <p>9:00<span style="font-size: 0.75rem;">am</span>&nbsp;&nbsp; to&nbsp;&nbsp; 2:00<span style="font-size: 0.75rem;">pm</span></p>
+
+                            <!-- Thursday -->
+                            <p>9:00<span style="font-size: 0.75rem;">am</span>&nbsp;&nbsp; to&nbsp;&nbsp; 2:00<span style="font-size: 0.75rem;">pm</span></p>
+
+                            <!-- Friday -->
+                            <p>9:00<span style="font-size: 0.75rem;">am</span>&nbsp;&nbsp; to&nbsp;&nbsp; 2:00<span style="font-size: 0.75rem;">pm</span></p>
+
+                            <!-- Satruday -->
+                            <p>Closed</p>
+
+                            <!-- Sundday -->
+                            <p>Closed</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Hours table -->
+                <div class="hours">
+
+                    <!-- title -->
+                    <h2 class="my-h2 hour-title">VIRTUAL PHONE VISITS</h2>
+
+                    <!-- container for hours -->
+                    <div class="hours-container">
+
+                        <!-- days of the week -->
+                        <div class="days">
+                            <p>Monday</p>
+                            <p>Tuesday</p>
+                            <p>Wednesday</p>
+                            <p>Thursday</p>
+                            <p>Friday</p>
+                            <p>Saturday</p>
+                            <p>Sunday</p>
+                        </div>
+
+                        <!-- Hours for each day -->
+                        <div class="hours-day">
+                            <!-- Monday -->
+                            <p>2:00<span style="font-size: 0.75rem;">pm</span>&nbsp;&nbsp; to&nbsp;&nbsp; 7:00<span style="font-size: 0.75rem;">pm</span></p>
+
+                            <!-- Tuesday -->
+                            <p>2:00<span style="font-size: 0.75rem;">pm</span>&nbsp;&nbsp; to&nbsp;&nbsp; 7:00<span style="font-size: 0.75rem;">pm</span></p>
+
+                            <!-- Wednesday -->
+                            <p>2:00<span style="font-size: 0.75rem;">pm</span>&nbsp;&nbsp; to&nbsp;&nbsp; 7:00<span style="font-size: 0.75rem;">pm</span></p>
+
+                            <!-- Thursday -->
+                            <p>2:00<span style="font-size: 0.75rem;">pm</span>&nbsp;&nbsp; to&nbsp;&nbsp; 7:00<span style="font-size: 0.75rem;">pm</span></p>
+
+                            <!-- friday -->
+                            <p>Closed</p>
+
+                            <!-- Saturday -->
+                            <p>9:00<span style="font-size: 0.75rem;">am</span>&nbsp;&nbsp; to&nbsp;&nbsp; 12:00<span style="font-size: 0.75rem;">pm</span></p>
+
+                            <!-- Sunday -->
+                            <p>Closed</p>
+
+                            <!-- Sunday -->
+                            <!-- <p>9:00<span style="font-size: 0.75rem;">am</span>&nbsp;&nbsp; to&nbsp;&nbsp; 1:00<span style="font-size: 0.75rem;">pm</span></p> -->
+                        
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        
+
+        </div>
+    </main>
+
+    <!-- About Us -->
+    <div class="about-us" id="about-us">
+
+        <!-- Title -->
+        <h1 class="meet-us">Meet the Whitby Medical Team</h1>
+        
+        <!-- Container for the staff -->
+        <div class="about-us-container">
+
+            <!-- Daniel Nagel -->
+            <div class="staff" style="margin-top: 100px;">
+                <div class="staff-container">
+                    <!-- Doctor Icon -->
+                    <img src="images/doctor-icon.svg" alt="Icon for a Doctor at Whitby Medical" style="height: 161px; margin-left: 15px; margin-left: 15px;">
+
+                    <!-- Text Box -->
+                    <div class="staff-textbox">
+                        <h1 class="staff-name">Daniel Nagel</h1>
+                        <h2 class="staff-deg">BSc, MD, CCFP</h2>
+                        <p class="staff-edu">UofT - Bachelor of Science<br>UofT Faculty of Medicine - Doctorate of Medicine<br><span style="font-weight: 700;">McGill University - Family Medicine Residency</span></p>
+                    </div>
+
+                    
+                </div>
+            </div>
+
+            <!-- Ken Daiter -->
+            <div class="staff">
+                <div class="staff-container">
+                    <!-- Doctor Icon -->
+                    <img src="images/doctor-icon.svg" alt="Icon for a Doctor at Whitby Medical" style="height: 161px; margin-left: 15px;">
+
+                    <!-- Text Box -->
+                    <div class="staff-textbox">
+                        <h1 class="staff-name">Ken Daiter</h1>
+                        <h2 class="staff-deg">BSc, MD, CCFP</h2>
+                        <p class="staff-edu">Western University - Bachelor of Science<br>UofT Faculty of Medicine - Doctorate of Medicine<br><span style="font-weight: 700;">UofT - Family Medicine Residency</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Maria Warren -->
+            <div class="staff">
+                <div class="staff-container">
+                    <!-- Doctor Icon -->
+                    <img src="images/nurse-icon.svg" alt="Icon for a Nurse at Whitby Medical" style="height: 161px; margin-left: 15px;">
+
+                    <!-- Text Box -->
+                    <div class="staff-textbox">
+                        <h1 class="staff-name">Maria Warren</h1>
+                        <h2 class="staff-deg">RPN</h2>
+                        <p class="staff-edu"><span style="font-weight: 700;">Loyalist College 1986 - Registered Practical Nurse</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sherry Laserna -->
+            <div class="staff">
+                <div class="staff-container">
+                    <!-- Doctor Icon -->
+                    <img src="images/nurse-icon.svg" alt="Icon for a Nurse at Whitby Medical" style="height: 161px; margin-left: 15px;">
+
+                    <!-- Text Box -->
+                    <div class="staff-textbox">
+                        <h1 class="staff-name">Sherry Laserna</h1>
+                        <h2 class="staff-deg">Physician Assistant</h2>
+                        <!-- <p class="staff-edu"><span style="font-weight: 700;">Mohawk College 1976 - Registered Practical Nurse</span></p> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lina Hall -->
+            <div class="staff">
+                <div class="staff-container">
+                    <!-- Doctor Icon -->
+                    <img src="images/nurse-icon.svg" alt="Icon for a Nurse at Whitby Medical" style="height: 161px; margin-left: 15px;">
+
+                    <!-- Text Box -->
+                    <div class="staff-textbox">
+                        <h1 class="staff-name">Lina Hall</h1>
+                        <h2 class="staff-deg">RPN</h2>
+                        <p class="staff-edu"><span style="font-weight: 700;">Georgian College 1986 - Registered Practical Nurse</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Amanda Long -->
+            <div class="staff">
+                <div class="staff-container">
+                    <!-- Doctor Icon -->
+                    <img src="images/receptionist-icon.svg" alt="Icon for a Nurse at Whitby Medical" style="height: 161px; margin-left: 15px;">
+
+                    <!-- Text Box -->
+                    <div class="staff-textbox">
+                        <h1 class="staff-name">Amanda Long</h1>
+                        <h2 class="staff-deg">Receptionist</h2>
+                        <p class="staff-edu"><span style="font-weight: 700;"></span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Courtney McNeil -->
+            <div class="staff">
+                <div class="staff-container">
+                    <!-- Doctor Icon -->
+                    <img src="images/receptionist-icon.svg" alt="Icon for a Nurse at Whitby Medical" style="height: 161px; margin-left: 15px;">
+
+                    <!-- Text Box -->
+                    <div class="staff-textbox">
+                        <h1 class="staff-name">Courtney McNeil</h1>
+                        <h2 class="staff-deg">Receptionist</h2>
+                        <p class="staff-edu"><span style="font-weight: 700;"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div class="services" id="services">
+        <div class="services-container">
+
+            <!-- Allergy Shots -->
+            <div class="service">
+                <img src="images/allergy-icon.svg" alt="">
+                <div class="service-text-wrapper">
+                    <h2 class="my-h2 service-title">Allergy Shots</h2>
+                    <p class="service-desc">Allergy shots help your body get used to allergens, the things that trigger an allergic reaction.
+                    </p>
+                </div>
+            </div>
+
+            <div class="service">
+                <img src="images/flu-icon.svg" alt="">
+                <div class="service-text-wrapper">
+                    <h2 class="my-h2 service-title">Flu Shots</h2>
+                    <p class="service-desc">Influenza or flu vaccines are a safe and effective way to stay healthy and prevent illness.
+                    </p>
+                </div>
+            </div>
+
+            <div class="service">
+                <img src="images/immunization-icon.svg" alt="">
+                <div class="service-text-wrapper">
+                    <h2 class="my-h2 service-title">Immunizations</h2>
+                    <p class="service-desc">Immunizations protect your child against several serious, life-threatening infectious diseases.
+                    </p>
+                </div>
+            </div>
+
+            <div class="service">
+                <img src="images/text-box-icon.svg" alt="">
+                <div class="service-text-wrapper">
+                    <h2 class="my-h2 service-title">STI Counselling</h2>
+                    <p class="service-desc">Good counselling for people infected with a STI helps them comply with treatment, understand their choices.
+                    </p>
+                </div>
+            </div>
+
+            <div class="service">
+                <img src="images/wart-icon.svg" alt="">
+                <div class="service-text-wrapper">
+                    <h2 class="my-h2 service-title">Wart Treatments</h2>
+                    <p class="service-desc">We treat your warts in the most effective, quickest way possible.<br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="service">
+                <img src="images/pregnant-icon.svg" alt="">
+                <div class="service-text-wrapper">
+                    <h2 class="my-h2 service-title">Contraception<br>Counselling</h2>
+                    <p class="service-desc">We offer birth control, pregnancy testing and counselling.<br><br><br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="service">
+                <img src="images/car-icon.svg" alt="">
+                <div class="service-text-wrapper">
+                    <h2 class="my-h2 service-title">Driver's Physicals</h2>
+                    <p class="service-desc">Walk in to our Clinic for Driver’s Physicals. Many professional drivers are required to get physicals on a regular basis.<br><br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="service">
+                <i class="fas fa-pills fa-5x"></i>
+                <div class="service-text-wrapper">
+                    <h2 class="my-h2 service-title">Pharmacy</h2>
+                    <p class="service-desc">Fill your prescriptions safely and fast next door at Whitby Medical Pharmacy. All drug plans accepted.<br><br><br>
+                    </p>
+                </div>
+            </div>
+
+            <!-- <div class="service">
+                <img src="images/ultrasound-icon.svg" alt="">
+                <div class="service-text-wrapper">
+                    <h2 class="my-h2 service-title">Ultrasound Lab</h2>
+                    <p class="service-desc">Onsite Ultrasound provides high quality, accessible ultrasound services to patients.<br><br><br>
+                    </p>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+
+    <footer>
+        
+        <p class="copy-right-text">© 2020 Whitby. All Rights Reserved.<a class="bold" href="index.html">&nbsp;Whitby Medical</a></p>
+        
+        <a href="#" onclick="mapsSelector()"><span style="font-weight: 700;">Address:&nbsp;</span> <span style="text-decoration: underline;">3910 Brock St N #4 Whitby, ON L1R 3E1</span></a>
+
+        <button class="end-call-button" onclick="window.location.href='tel:+19054449493'">
+            <h3 class="my-h3 end-call-button-text">(905)444-9493</h3>
+            <img class="right-icon" src="images/Right-Arrow.svg" alt="Right Arrow">
+        </button>
+
+        <a href="#hero-box" class="up-button">
+            <div class="up-button">
+                <img src="images/up-arrow.svg" alt="Up arrow">
+            </div>
+        </a>
+
+
+
+      
+    </footer>
+
+    <script type="text/javascript" src="https://Widgets.SkipTheWaitingRoom.com/Scripts/book-online-widget.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+
+    <script src="scripts.js"></script>
+
+
+</body>
+</html>

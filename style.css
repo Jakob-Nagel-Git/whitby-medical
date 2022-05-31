@@ -1,0 +1,707 @@
+/* Global View */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+header {
+    height: 72px;
+    width: 100%;
+    background-color: white;top: 0px;
+    position: fixed;
+}
+
+.mob-wrapper {
+    display: none;
+}
+
+.header-container {
+    height: 72px;
+    max-width: 1366px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.herobox {
+    height: 603px;
+    background-image: url(images/Whitby-Medical-Store-Front.jpg);
+    background-color: #464D5D;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    text-align: center;
+    margin-top: 72px;
+    outline: none;
+}
+
+.awards {
+    min-height: 281px;
+    background-color: white;
+}
+
+.award-container {
+    max-width: 1366px;
+    display: flex;
+    min-height: 281px;
+    justify-content: space-between;
+    margin: 0px auto 0px auto;
+}
+
+main {
+    padding-bottom: 175px;
+    background-color: #13BFB1;
+    outline: none;
+}
+
+.main-container {
+    max-width: 1366px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+}
+
+.about-us {
+    min-height: 1370px;
+    text-align: center;
+    background-color: #F0F0F0;
+    outline: none;
+}
+
+.about-us-container {
+    max-width: 1366px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.staff {
+    max-width: 570px;
+    height: 345.35px;
+    margin-top: 144px;
+    text-align: left;
+    outline: none;
+    
+}
+
+.staff-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 28px;
+    margin-bottom: 28px;
+    border-bottom: solid 1px black;
+}
+
+.staff-textbox {
+    margin-left: 41px;
+    max-width: 367px;
+    text-align: left;
+}
+
+.services {
+    min-height: 1400.03px;
+    background-color: #0A5B55;
+    outline: none;
+}
+
+.services-container {
+    max-width: 1366px;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer {
+    height: 158px;
+    background-color: #13BFB1 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-button {
+    background-color: #EE4266;
+    width: 436px;
+    height: 99px;
+    margin: 36px auto 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
+}
+
+.award {
+    margin-top: -61.725px;
+    max-width: 344px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.award-circle {
+    width: 123.45px;
+    height: 123.45px;
+    background-color: #13BFB1;
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.appointment-container{
+    max-width: 1366px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.appointment-box {
+    width: 329px;
+    height: 360px;
+    margin: 20px auto 20px auto;
+    background-color: #F0F0F0;
+    border-radius: 47px;
+    text-align: center;
+    box-shadow: rgba(222, 222, 222, 0.27) 1px 4px 3px;
+}
+
+.appointment-button {
+    padding: 27px 48px;
+    margin: 0px auto;
+    background-color: #EE4266;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 5px;
+}
+
+.map-container {
+    max-width: 1366px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hours {
+    width: 385px;
+    height: 507px;
+    background-color: #6A94B4;
+    border: solid #707070 1px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hours-link {
+    color: black;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-top: 15px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.hours-container {
+    width: 320px;
+    margin-left: 32.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.days {
+    text-align: left;
+}
+
+.service {
+    height: 231px;
+    width: 30%;
+    margin-top: 141px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.copyright {
+    display: flex;
+}
+
+.end-call-button {
+    outline: none;
+    border: none;
+    width: 394px;
+    height: 89px;
+    border-radius: 50px;
+    background-color: #EE4266;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.up-button {
+    width: 120px;
+    height: 158px;
+    background-color: #EE4266;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 3.2rem;
+    font-weight: 700; 
+    text-shadow: rgba(0, 0, 0, 0.08) 1px 3px 2px;
+}
+
+.my-h2 {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+    text-shadow: rgba(0, 0, 0, 0.08) 1px 3px 2px;
+}
+
+.my-h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+p {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+.days p {
+    color: white;
+    font-size: 1.25rem;
+    line-height: 50px;
+}
+
+.hours-day p {
+    color: black;
+    font-size: 1.25rem;
+    line-height: 48px;
+}
+
+.hour-title {
+    text-shadow: none;
+    padding-top: 47px;
+}
+
+.herobox h1{
+    padding-top: 133px;
+}
+
+.main-container h1{
+    padding-top: 148px;
+    padding-bottom: 99px;
+}
+
+.appointment-box h1 {
+    padding-top: 32px;
+    padding-bottom: 25px;
+    color: #0A7068;
+    font-size: 2.5rem;
+}
+
+.meet-us {
+    padding-top: 156px;
+    color: #0A5B55;
+}
+
+.staff-name {
+    color: black;
+    font-size: 2.5rem;
+    text-shadow: none;
+}
+
+.appointment-box h2 {
+    font-size: 2rem;
+    color: black;
+    padding-bottom: 95px;
+    text-shadow: none;
+}
+
+.appointment-box h2.skip {
+    padding-bottom: 57px;
+}
+
+.adress-h2 {
+    margin-bottom: -39px;
+}
+
+.service-title {
+    text-shadow: none;
+    padding: 21px 0px;
+}
+
+.service-desc {
+    color: white;
+}
+
+.we-value {
+    font-size: 2rem;
+    padding-top: 29px;
+    color: black;
+}
+
+.staff-deg {
+    font-size: 1.25rem;
+    color: black;
+    padding-top: 4px; 
+    padding-bottom: 21px;
+    text-shadow: none;
+}
+
+.staff-edu {
+    line-height: 1.45rem;
+    text-shadow: none;
+}
+
+.award p {
+    margin-top: 15px;
+}
+
+a p {
+    background-color: #EE4266;
+    color: white;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 13px 0px;
+    margin-top: -67px;
+    line-height: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 5px;  
+}
+.award h3{
+    color: #0A7068;
+    margin-top: 43px;
+}
+
+.main-container h1 {
+    font-size: 3rem;
+}
+
+.first-line {
+    padding-top: 18px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.flex {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    /* margin-left: auto; */
+}
+
+.logo-text {
+    color: #0A5B55;
+}
+
+.copy-right-text {
+    color: white;
+}
+
+.copy-right-adress {
+    color: white;
+    margin-left: 118px;
+    font-weight: 700;
+}
+
+.end-call-button-text {
+    color: white;
+    font-weight: 100;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.nav-button {
+    margin-right: 57px;
+    color: #0A5B55;
+}
+
+.seperation-div {
+    width: 40px;
+}
+
+.right-icon {
+    margin-left: 17px;
+}
+
+.material-icons {
+    font-size: 4.0625rem;
+}
+
+footer {
+    outline: none;
+    border: none;
+}
+
+
+
+
+/* Map Warp View */
+@media (max-width: 1294px){
+
+.map {
+    width: 100%;
+}
+
+.hours {
+    margin: 0px auto 0px auto;
+    width: 100%;
+}
+
+.hours-container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    padding-bottom: 0px;
+}
+
+.end-call-button {
+    width: 300px;
+}
+    
+}
+
+
+
+
+
+/* About Us Warp View */
+@media (max-width: 1140px){
+
+.staff {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.end-call-button {
+    margin-right: 15px;
+}
+
+
+}
+
+
+
+
+
+/* Tablet View */
+@media (max-width: 768px){
+
+.end-call-button {
+    margin-right: 0px;
+}
+
+.mob-wrapper {
+    display: block;
+}
+
+.seperation-div {
+    display: none;
+}
+
+nav {
+    display: none;
+}
+
+.mob-nav {
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+}
+
+.navbutton {
+    display: block;
+    background-color: #EE4266;
+    padding: 15px 30px;
+    margin-left: -70px;
+    text-align: center;
+}
+
+.nav-button {
+    margin-right: 20px;
+}
+
+.seperation-div {
+    display: none;
+}
+
+.service {
+    width: 45%;
+}
+
+footer {
+    height: 400px;
+    flex-direction: column;
+}
+
+.up-button {
+    width: 100%;
+    height: 70px;
+}
+
+.copy-right-text{
+    
+    margin-top: 20px;
+}
+
+.staff {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+}
+
+/* Awards Fix */
+@media (max-width: 657px){
+
+.award-container {
+    display: block;
+}
+
+.award {
+    margin: 35px auto 35px auto;
+    width: 100%;
+}
+
+.staff {
+    margin-top: 0px;
+}
+
+
+
+}
+
+
+
+
+
+
+/* About Us Preventing Collapse */
+@media (max-width: 574px){
+
+.staff {
+    width: 100%;
+    margin-top: 0px;
+}
+
+/* Shrinking Button */
+.call-button {
+    width: 400px;
+    height: 90px;
+}
+
+.appointment-container {
+    flex-direction: column;
+
+}
+}
+
+
+
+/* Mobile View */
+@media (max-width: 400px) {
+
+.call-button {
+    width: 90%;
+}
+
+.about-us{
+    padding-bottom: 100px;
+}
+
+.appointment-box {
+    width: 90%;
+}
+
+.hours-container {
+    width: auto;
+}
+
+.staff-container {
+    display: block;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.my-h2 {
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.herobox h1 {
+    padding-top: 80px;
+}
+
+.herobox .my-h2 {
+    line-height: 1.5rem;
+}
+
+.main-container h1{
+    padding-top: 70px;
+    padding-bottom: 48px;
+    font-size: 2.5rem;
+}
+
+.services-container {
+    justify-content: space-around;
+}
+
+.staff {
+    margin-top: 40px;
+}
+
+.service {
+    width: 90%;
+    height: 200px;
+}
+
+.services {
+    padding-bottom: 100px;
+}
+
+.herobox {
+    height: 500px;
+}
+
+
+footer {
+    height: 350px;
+}
+
+}
