@@ -27,7 +27,7 @@ header {
 }
 
 .herobox {
-    height: 603px;
+    min-height: 603px;
     background-image: url(images/Whitby-Medical-Store-Front.jpg);
     background-color: #464D5D;
     background-repeat: no-repeat;
